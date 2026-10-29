@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joel &amp; Sarah — Wedding Invitation</title>
+<meta name="description" content="You are warmly invited to celebrate the wedding solemnization of Joel Teri Kamale and Sarah Aloysius Saad on 29th December 2026 in Yola, Adamawa State.">
+
+<!-- Fonts & Tailwind CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: {
+            950: '#030814',
+            900: '#07152f',
+            800: '#0d2147',
+            700: '#142f63',
+          },
+          gold: {
+            100: '#fff7db',
+            200: '#fff0b3',
+            300: '#f7e7b4',
+            400: '#e5c378',
+            500: '#d8b15a',
+            600: '#b88e36',
+          }
+        },
+        fontFamily: {
+          cinzel: ['Cinzel', 'serif'],
+          serif: ['Playfair Display', 'serif'],
+          sans: ['Montserrat', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: #030814; }
+  ::-webkit-scrollbar-thumb { background: #d8b15a44; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #d8b15a88; }
+
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #fff7db 0%, #d8b15a 50%, #9e7526 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .glass-card {
+    background: rgba(13, 33, 71, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(216, 177, 90, 0.3);
+  }
+
+  .gold-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .gold-shimmer::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(60deg, transparent 30%, rgba(255,255,255,0.25) 50%, transparent 70%);
+    transform: rotate(30deg);
+    animation: shimmer 5s infinite;
+  }
+  @keyframes shimmer {
+    0% { transform: translateX(-100%) rotate(30deg); }
+    100% { transform: translateX(100%) rotate(30deg); }
+  }
+</style>
+</head>
+<body class="bg-navy-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-navy-900">
+
+<!-- Top Ribbon -->
+<div class="h-1.5 w-full bg-gradient-to-r from-gold-600 via-gold-200 to-gold-600 fixed top-0 z-50"></div>
+
+<!-- Navigation Bar -->
+<nav class="bg-navy-950/90 backdrop-blur-md border-b border-gold-500/20 py-4 px-6 fixed w-full top-1.5 z-40 transition-all duration-300">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <a href="#" class="font-cinzel text-xl tracking-widest gold-gradient-text font-bold">J &amp; S · 2026</a>
+    <div class="hidden md:flex space-x-8 text-xs tracking-widest text-slate-300 uppercase font-medium">
+      <a href="#couple" class="hover:text-gold-400 transition-colors">The Couple</a>
+      <a href="#details" class="hover:text-gold-400 transition-colors">Event Details</a>
+      <a href="#gallery" class="hover:text-gold-400 transition-colors">Gallery</a>
+      <a href="#rsvp" class="hover:text-gold-400 transition-colors">RSVP Contacts</a>
+      <a href="#location" class="hover:text-gold-400 transition-colors">Location</a>
+    </div>
+    <a href="https://maps.google.com/?q=Gotel+TV+station+hayingada+jimeta+yola+Adamawa+state" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="px-4 py-2 border border-gold-500/60 text-gold-400 hover:bg-gold-500 hover:text-navy-900 text-xs font-semibold uppercase tracking-wider rounded transition-all duration-300 shadow-sm flex items-center space-x-1.5">
+      <span>📍</span>
+      <span>Open Map</span>
+    </a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4 overflow-hidden">
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2000&auto=format&fit=crop" 
+         alt="Luxury Wedding Venue Background" 
+         class="w-full h-full object-cover object-center filter brightness-40 contrast-125">
+    <div class="absolute inset-0 bg-gradient-to-b from-navy-950/80 via-navy-900/70 to-navy-950"></div>
+  </div>
+
+  <div class="relative z-10 max-w-4xl mx-auto text-center px-6 py-10 glass-card rounded-2xl shadow-2xl my-8 border border-gold-500/40">
+    <span class="inline-block uppercase tracking-[0.18em] text-[10px] sm:text-xs font-semibold text-gold-400 mb-4 px-4 py-1.5 border border-gold-500/40 rounded-full bg-navy-950/80">
+      THE FAMILIES OF MR. KOJI TERI KAMALE &amp; MR. ALOYSIUS SAAD
+    </span>
+    
+    <p class="font-serif italic text-base sm:text-lg text-slate-200 mb-2">Joyfully invite the pleasure of your company to the Wedding Solemnization of their children</p>
+
+    <!-- Couple Names -->
+    <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-bold my-6 tracking-wide leading-tight">
+      <span class="block gold-gradient-text drop-shadow-md">MR. JOEL TERI KAMALE</span>
+      <span class="font-serif italic text-2xl sm:text-4xl text-gold-300 font-normal my-2 block">&amp;</span>
+      <span class="block gold-gradient-text drop-shadow-md">MISS SARAH ALOYSIUS SAAD</span>
+    </h1>
+
+    <div class="w-32 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto my-6"></div>
+
+    <p class="font-sans text-xs sm:text-sm tracking-[0.2em] text-slate-200 font-light uppercase mb-6">
+      Tuesday, 29th December 2026 <span class="text-gold-400 font-bold mx-2">•</span> 10:00 AM WAT
+    </p>
+
+    <!-- Countdown Timer -->
+    <div class="grid grid-cols-4 gap-2 sm:gap-4 max-w-md mx-auto mb-8 bg-navy-950/80 p-3 sm:p-4 rounded-xl border border-gold-500/30">
+      <div class="text-center">
+        <span id="days" class="font-cinzel text-xl sm:text-3xl font-bold text-gold-400">00</span>
+        <span class="block text-[9px] sm:text-[10px] uppercase tracking-widest text-slate-300 mt-1">Days</span>
+      </div>
+      <div class="text-center">
+        <span id="hours" class="font-cinzel text-xl sm:text-3xl font-bold text-gold-400">00</span>
+        <span class="block text-[9px] sm:text-[10px] uppercase tracking-widest text-slate-300 mt-1">Hours</span>
+      </div>
+      <div class="text-center">
+        <span id="minutes" class="font-cinzel text-xl sm:text-3xl font-bold text-gold-400">00</span>
+        <span class="block text-[9px] sm:text-[10px] uppercase tracking-widest text-slate-300 mt-1">Minutes</span>
+      </div>
+      <div class="text-center">
+        <span id="seconds" class="font-cinzel text-xl sm:text-3xl font-bold text-gold-400">00</span>
+        <span class="block text-[9px] sm:text-[10px] uppercase tracking-widest text-slate-300 mt-1">Seconds</span>
+      </div>
+    </div>
+
+    <!-- Colour Code Badge -->
+    <div class="inline-flex flex-wrap items-center justify-center gap-2 bg-navy-950/90 px-4 py-2 rounded-full border border-gold-500/30 mb-8">
+      <span class="text-xs text-gold-400 font-semibold uppercase tracking-wider">Colour Code:</span>
+      <div class="flex items-center space-x-2">
+        <span class="w-3.5 h-3.5 rounded-full bg-[#4A2E18] border border-gold-400" title="Coffee Brown"></span>
+        <span class="w-3.5 h-3.5 rounded-full bg-[#D8B15A] border border-gold-400" title="Gold"></span>
+        <span class="w-3.5 h-3.5 rounded-full bg-white border border-gold-400" title="White"></span>
+        <span class="text-xs text-slate-200 font-medium">Coffee Brown, Gold &amp; White</span>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="https://maps.google.com/?q=Gotel+TV+station+hayingada+jimeta+yola+Adamawa+state" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="gold-shimmer px-7 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-xs uppercase tracking-widest rounded shadow-xl transition-all duration-300 inline-flex items-center space-x-2">
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span>Get Directions to Venue</span>
+      </a>
+
+      <button id="addToCalBtn" class="px-7 py-3.5 border border-gold-400 text-gold-300 hover:bg-gold-500/10 font-semibold text-xs uppercase tracking-widest rounded transition-all duration-300 flex items-center space-x-2">
+        <span>📅</span>
+        <span>Add to Calendar</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Couple & Parents Section -->
+<section id="couple" class="py-20 px-4 max-w-6xl mx-auto">
+  <div class="text-center mb-16">
+    <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-2">Two Families United</span>
+    <h2 class="font-cinzel text-3xl sm:text-4xl text-slate-100 font-semibold">Groom &amp; Bride</h2>
+    <div class="w-16 h-0.5 bg-gold-500 mx-auto mt-4"></div>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-center mb-12">
+    <!-- Groom Card -->
+    <div class="glass-card p-8 sm:p-10 rounded-2xl border border-gold-500/40 text-center relative hover:border-gold-400 transition-all duration-300">
+      <div class="w-20 h-20 sm:w-24 sm:h-24 mx-auto mb-6 rounded-full bg-navy-950/80 border-2 border-gold-400 flex items-center justify-center text-gold-400 shadow-xl">
+        <span class="font-serif text-3xl sm:text-4xl">⚜</span>
+      </div>
+      <span class="text-gold-400 text-xs uppercase tracking-[0.25em] font-semibold block mb-1">The Groom</span>
+      <p class="text-[11px] text-slate-300 uppercase tracking-widest mb-2">Son of Mr. Koji Teri Kamale</p>
+      <h3 class="font-cinzel text-2xl font-bold text-slate-100 mb-4">MR. JOEL TERI KAMALE</h3>
+      <p class="font-serif text-slate-300 text-sm leading-relaxed italic">
+        "With grateful hearts and joy, we invite you to witness and celebrate our union of love and faith."
+      </p>
+    </div>
+
+    <!-- Bride Card -->
+    <div class="glass-card p-8 sm:p-10 rounded-2xl border border-gold-500/40 text-center relative hover:border-gold-400 transition-all duration-300">
+      <div class="w-20 h-20 sm:w-24 sm:h-24 mx-auto mb-6 rounded-full bg-navy-950/80 border-2 border-gold-400 flex items-center justify-center text-gold-400 shadow-xl">
+        <span class="font-serif text-3xl sm:text-4xl">✿</span>
+      </div>
+      <span class="text-gold-400 text-xs uppercase tracking-[0.25em] font-semibold block mb-1">The Bride</span>
+      <p class="text-[11px] text-slate-300 uppercase tracking-widest mb-2">Daughter of Mr. Aloysius Saad</p>
+      <h3 class="font-cinzel text-2xl font-bold text-slate-100 mb-4">MISS SARAH ALOYSIUS SAAD</h3>
+      <p class="font-serif text-slate-300 text-sm leading-relaxed italic">
+        "Your presence and prayers will make our special day even more meaningful and blessed."
+      </p>
+    </div>
+  </div>
+
+  <!-- Toast Scripture Card -->
+  <div class="glass-card p-8 rounded-2xl border border-gold-500/30 text-center max-w-3xl mx-auto shadow-xl">
+    <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-3">TOAST</span>
+    <blockquote class="font-serif italic text-slate-200 text-base sm:text-lg leading-relaxed mb-3">
+      "Until we reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fulness of Christ."
+    </blockquote>
+    <cite class="text-xs font-sans uppercase tracking-widest text-gold-400 font-semibold block">— Ephesians 4:13</cite>
+  </div>
+</section>
+
+<!-- Event Schedule Section -->
+<section id="details" class="py-20 bg-navy-900/60 relative">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-2">Program of Events</span>
+      <h2 class="font-cinzel text-3xl sm:text-4xl text-slate-100 font-semibold">Wedding Schedule</h2>
+      <div class="w-16 h-0.5 bg-gold-500 mx-auto mt-4"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Church Service Card -->
+      <div class="glass-card p-8 rounded-2xl border border-gold-500/30 relative flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-400 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.5M4.5 21V10.5"></path></svg>
+          </div>
+          <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">Holy Matrimony</span>
+          <h3 class="font-cinzel text-2xl text-slate-100 font-semibold mt-1 mb-4">Church Service</h3>
+          
+          <ul class="space-y-3 text-slate-300 text-sm font-sans mb-6">
+            <li class="flex items-center"><span class="text-gold-400 mr-2.5">📅</span> <strong>Date:</strong> &nbsp; Tuesday, 29th December 2026</li>
+            <li class="flex items-center"><span class="text-gold-400 mr-2.5">⏰</span> <strong>Time:</strong> &nbsp; 10:00 AM Prompt WAT</li>
+            <li class="flex items-start"><span class="text-gold-400 mr-2.5 mt-0.5">📍</span> <span><strong>Venue:</strong> &nbsp; Mountain Of Solution Bible Ministry International, After Gotel TV Station, Badarisa, Hayin Gada, Jimeta, Yola, Adamawa State</span></li>
+          </ul>
+        </div>
+        
+        <a href="https://maps.google.com/?q=Gotel+TV+station+hayingada+jimeta+yola+Adamawa+state" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center text-xs font-bold uppercase tracking-wider text-gold-400 hover:text-gold-300 transition-colors pt-4 border-t border-gold-500/20">
+          <span>Get Directions to Venue &rarr;</span>
+        </a>
+      </div>
+
+      <!-- Reception Card -->
+      <div class="glass-card p-8 rounded-2xl border border-gold-500/30 relative flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-full bg-gold-500/10 border border-gold-400 flex items-center justify-center text-gold-400 mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H4.5A1.5 1.5 0 013 19.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21"></path></svg>
+          </div>
+          <span class="text-gold-400 text-xs font-semibold uppercase tracking-widest">The Celebration</span>
+          <h3 class="font-cinzel text-2xl text-slate-100 font-semibold mt-1 mb-4">Reception</h3>
+          
+          <ul class="space-y-3 text-slate-300 text-sm font-sans mb-6">
+            <li class="flex items-center"><span class="text-gold-400 mr-2.5">🥂</span> <strong>Time:</strong> &nbsp; Follows Immediately After Church Service</li>
+            <li class="flex items-start"><span class="text-gold-400 mr-2.5 mt-0.5">📍</span> <span><strong>Venue:</strong> &nbsp; Church Premises, Mountain Of Solution Bible Ministry International, Hayin Gada, Yola</span></li>
+          </ul>
+        </div>
+
+        <div class="pt-4 border-t border-gold-500/20 text-xs text-slate-300 italic">
+          Join us as we feast, rejoice, and celebrate this joyful occasion.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Photo Gallery Showcase Section -->
+<section id="gallery" class="py-20 px-4 max-w-6xl mx-auto">
+  <div class="text-center mb-16">
+    <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-2">Moments &amp; Aesthetics</span>
+    <h2 class="font-cinzel text-3xl sm:text-4xl text-slate-100 font-semibold">Wedding Gallery</h2>
+    <div class="w-16 h-0.5 bg-gold-500 mx-auto mt-4"></div>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Gallery 1: Rings -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=800&auto=format&fit=crop" 
+           alt="Eternal Promise - Wedding Rings" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Eternal Promise</span>
+      </div>
+    </div>
+
+    <!-- Gallery 2: Floral Arch -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop" 
+           alt="Elegant Floral Setup" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Elegant Floral Setup</span>
+      </div>
+    </div>
+
+    <!-- Gallery 3: Ceremony -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop" 
+           alt="Grand Celebration" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Grand Celebration</span>
+      </div>
+    </div>
+
+    <!-- Gallery 4: Toast Celebration -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1510076803423-10771f28b5e2?q=80&w=800&auto=format&fit=crop" 
+           alt="Joyous Moments" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Joyous Toast</span>
+      </div>
+    </div>
+
+    <!-- Gallery 5: Reception Table Setting -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=800&auto=format&fit=crop" 
+           alt="Luxury Table Decor" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Luxury Decor</span>
+      </div>
+    </div>
+
+    <!-- Gallery 6: Wedding Bouquet -->
+    <div class="group relative h-80 rounded-2xl overflow-hidden glass-card border border-gold-500/30">
+      <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=800&auto=format&fit=crop" 
+           alt="Bridal Bouquet" 
+           class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-80"></div>
+      <div class="absolute bottom-4 left-4 right-4 text-center">
+        <span class="text-xs font-cinzel text-gold-300 uppercase tracking-widest font-semibold">Bridal Elegance</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Unshrunk, Spacious Mobile RSVP Section -->
+<section id="rsvp" class="py-20 px-4 max-w-4xl mx-auto">
+  <div class="text-center mb-12">
+    <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-2">RSVP &amp; Enquiries</span>
+    <h2 class="font-cinzel text-3xl sm:text-4xl text-slate-100 font-semibold">Kindly Respond / Contact Us</h2>
+    <div class="w-16 h-0.5 bg-gold-500 mx-auto mt-4 mb-6"></div>
+    <p class="text-slate-300 text-sm max-w-xl mx-auto font-serif italic">
+      Please contact our designated RSVP representatives for attendance confirmation and event enquiries.
+    </p>
+  </div>
+
+  <div class="space-y-6">
+    <!-- Contact Card 1 -->
+    <div class="glass-card p-6 sm:p-8 rounded-2xl border border-gold-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="text-center sm:text-left">
+        <span class="text-xs uppercase tracking-widest text-gold-400 font-bold block mb-1">RSVP Line 1</span>
+        <a href="tel:08149702939" class="font-cinzel text-2xl font-extrabold text-slate-100 hover:text-gold-300 transition-colors">
+          08149702939
+        </a>
+      </div>
+      
+      <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+        <a href="tel:08149702939" class="px-6 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-xs uppercase tracking-wider rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-md">
+          <span>📞</span>
+          <span>Call Line 1</span>
+        </a>
+        <a href="https://wa.me/2348149702939?text=Hello,%20I%20am%20reaching%20out%20regarding%20Joel%20%26%20Sarah%27s%20wedding." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-md">
+          <span>💬</span>
+          <span>WhatsApp Line 1</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Card 2 -->
+    <div class="glass-card p-6 sm:p-8 rounded-2xl border border-gold-500/40 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="text-center sm:text-left">
+        <span class="text-xs uppercase tracking-widest text-gold-400 font-bold block mb-1">RSVP Line 2</span>
+        <a href="tel:09031451105" class="font-cinzel text-2xl font-extrabold text-slate-100 hover:text-gold-300 transition-colors">
+          09031451105
+        </a>
+      </div>
+      
+      <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+        <a href="tel:09031451105" class="px-6 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-xs uppercase tracking-wider rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-md">
+          <span>📞</span>
+          <span>Call Line 2</span>
+        </a>
+        <a href="https://wa.me/2349031451105?text=Hello,%20I%20am%20reaching%20out%20regarding%20Joel%20%26%20Sarah%27s%20wedding." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-md">
+          <span>💬</span>
+          <span>WhatsApp Line 2</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location & Interactive Google Map Embed Section -->
+<section id="location" class="py-20 bg-navy-900/80 border-t border-gold-500/20">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <span class="text-gold-400 font-cinzel text-xs tracking-[0.3em] uppercase block mb-2">Map &amp; Directions</span>
+    <h2 class="font-cinzel text-3xl sm:text-4xl text-slate-100 font-semibold mb-4">Event Location</h2>
+    <div class="w-16 h-0.5 bg-gold-500 mx-auto mb-8"></div>
+
+    <div class="glass-card p-6 sm:p-8 rounded-2xl border border-gold-500/30 max-w-4xl mx-auto shadow-2xl">
+      <!-- Interactive Embedded Google Map -->
+      <div class="w-full h-80 sm:h-96 rounded-xl overflow-hidden border border-gold-500/30 mb-6 shadow-inner">
+        <iframe 
+          title="Google Map Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15783.50419262272!2d12.4419!3d9.2562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMTUnMjIuMyJOIDEywrAyNiczMC44IkU!5e0!3m2!1sen!2sng!4v1700000000000!5m2!1sen!2sng" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          class="filter contrast-125">
+        </iframe>
+      </div>
+
+      <div class="text-center">
+        <h3 class="font-cinzel text-xl text-slate-100 font-bold mb-1">Mountain Of Solution Bible Ministry International</h3>
+        <p class="text-xs text-gold-400 uppercase tracking-widest mb-3">Gotel TV Station Landmark</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-6 font-sans">
+          After Gotel TV Station, Badarisa, Hayin Gada, Jimeta, Yola, Adamawa State, Nigeria.
+        </p>
+
+        <a href="https://maps.google.com/?q=Gotel+TV+station+hayingada+jimeta+yola+Adamawa+state" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="gold-shimmer px-8 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-xs uppercase tracking-widest rounded-lg shadow-xl inline-flex items-center space-x-2">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span>Open in Google Maps App</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Luxury VBANET TECH Footer -->
+<footer class="relative py-14 bg-gradient-to-b from-navy-900 via-navy-950 to-black border-t border-gold-500/40 text-center text-slate-300 text-xs font-sans overflow-hidden">
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gold-500/10 via-transparent to-transparent pointer-events-none"></div>
+
+  <div class="relative z-10 max-w-4xl mx-auto px-4">
+    <p class="font-cinzel gold-gradient-text text-xl font-bold tracking-widest mb-2">JOEL &amp; SARAH</p>
+    <p class="text-slate-300 text-[11px] uppercase tracking-[0.2em] mb-4">29TH DECEMBER 2026 • YOLA, ADAMAWA STATE</p>
+    
+    <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-gold-400 to-transparent mx-auto mb-6"></div>
+    
+    <div class="glass-card inline-block px-6 py-3 rounded-full border border-gold-500/30 mb-4 shadow-lg">
+      <p class="text-xs text-gold-300 uppercase font-bold tracking-wider">
+        Designed &amp; Powered by <span class="text-white underline decoration-gold-400 underline-offset-4 font-extrabold">VBANET TECH</span>
+      </p>
+    </div>
+
+    <p class="text-[10px] text-slate-400 uppercase tracking-widest mt-2">
+      Made With Love for Joel Teri Kamale &amp; Sarah Aloysius Saad
+    </p>
+  </div>
+</footer>
+
+<!-- Interactive Scripts -->
+<script>
+  // Countdown Timer Logic
+  const weddingDate = new Date('December 29, 2026 10:00:00 GMT+0100').getTime();
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
+
+    if (distance < 0) {
+      document.getElementById('days').innerText = '00';
+      document.getElementById('hours').innerText = '00';
+      document.getElementById('minutes').innerText = '00';
+      document.getElementById('seconds').innerText = '00';
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('days').innerText = String(days).padStart(2, '0');
+    document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+    document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+    document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+
+  // Calendar Event (.ics download)
+  function downloadICS() {
+    const icsData = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//Joel & Sarah Wedding//EN',
+      'BEGIN:VEVENT',
+      'SUMMARY:Wedding of Joel Teri Kamale & Sarah Aloysius Saad',
+      'DESCRIPTION:Join us to celebrate the holy matrimony of Joel Teri Kamale and Sarah Aloysius Saad in Yola.',
+      'LOCATION:Mountain Of Solution Bible Ministry International, After Gotel TV Station, Badarisa, Hayin Gada, Jimeta, Yola, Adamawa State',
+      'DTSTART:20261229T090000Z',
+      'DTEND:20261229T150000Z',
+      'STATUS:CONFIRMED',
+      'SEQUENCE:0',
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ].join('\n');
+
+    const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8' });
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'Joel_and_Sarah_Wedding.ics');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  document.getElementById('addToCalBtn').addEventListener('click', downloadICS);
+</script>
+
+</body>
+</html>
